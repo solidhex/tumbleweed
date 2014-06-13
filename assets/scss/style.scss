@@ -9,3 +9,39 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 */
+
+// Import compass helpers
+
+@import "compass/utilities";
+@import "compass/reset";
+@import "compass/css3";
+
+// Import partials
+
+// Import views
+
+@import "views/blog";
+
+// Base styles
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F5F5F5;
+	color: #4d4949;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	-moz-force-broken-image-icon: 1;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
