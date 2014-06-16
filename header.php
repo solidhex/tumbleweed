@@ -9,5 +9,9 @@
 </head>
 <body <?php body_class(); ?>>
 	<div id="container">
-		<header></header>
+		<header>
+			<nav role="navigation">
+				<?php wp_nav_menu( array('menu' => 'Main Nav', 'container' => false ) ); ?>
+			</nav>
+		</header>
 		<div id="main" role="main">

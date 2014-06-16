@@ -16,6 +16,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "compass/reset";
 @import "compass/css3";
 
+// Import typography
+@import "typography/source_sans_pro";
+
 // Import partials
 
 // Import views
@@ -33,12 +36,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
 	background: #F5F5F5;
 	color: #4d4949;
+	font-family: 'Source Sans Pro';
 }
 
 img {
 	display: block;
 	max-width: 100%;
 	-moz-force-broken-image-icon: 1;
+}
+
+strong {
+	font-weight: bold;
 }
 
 #container {

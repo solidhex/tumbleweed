@@ -9,7 +9,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 */
-/* line 17, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,62 +30,81 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("./assets/fonts/source_sans_pro/sourcesanspro-regular.eot");
+  src: url("./assets/fonts/source_sans_pro/sourcesanspro-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/source_sans_pro/sourcesanspro-regular.woff") format("woff"), url("./assets/fonts/source_sans_pro/sourcesanspro-regular.ttf") format("truetype"), url("./assets/fonts/source_sans_pro/sourcesanspro-regular.svg#Source Sans Pro") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("./assets/fonts/source_sans_pro/sourcesanspro-bold.eot");
+  src: url("./assets/fonts/source_sans_pro/sourcesanspro-bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/source_sans_pro/sourcesanspro-bold.woff") format("woff"), url("./assets/fonts/source_sans_pro/sourcesanspro-bold.ttf") format("truetype"), url("./assets/fonts/source_sans_pro/sourcesanspro-bold.svg#Source Sans Pro") format("svg");
+  font-style: normal;
+  font-weight: bold; }
 
 /**
  * Blog styles
  */
-/* line 27, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 33, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 body {
   background: #F5F5F5;
-  color: #4d4949; }
+  color: #4d4949;
+  font-family: 'Source Sans Pro'; }
 
-/* line 38, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 img {
   display: block;
   max-width: 100%;
   -moz-force-broken-image-icon: 1; }
 
-/* line 44, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
+strong {
+  font-weight: bold; }
+
+/* line 52, ../scss/style.scss */
 #container {
   margin: 0 auto;
   width: 960px; }
