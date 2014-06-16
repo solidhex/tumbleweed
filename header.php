@@ -4,7 +4,7 @@
 	<meta charset="UTF-8" />
 	<title><?php bloginfo( 'name' ); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-	<script src="<?php bloginfo( 'template_directory' ); ?>/assets/js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="<?php bloginfo( 'template_directory' ); ?>/assets/js/modernizr-2.6.2.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
