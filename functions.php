@@ -7,6 +7,12 @@
 add_filter('show_admin_bar', '__return_false');
 
 /**
+ * Remove WP meta generator
+ */
+
+remove_action('wp_head', 'wp_generator');
+
+/**
  * Add Theme Support Items
  */
 
@@ -52,11 +58,9 @@ function get_attached_images( $args=null )
 	// now, retrieve all the images
 	$images = get_children(array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby ));
 
-	// set a counter
+	// set the counter to prevent undefined variable warning
 	$i = 0;
 	
-	// var_dump($images);
-
 	if ($images) {
 		if ($echo) {
 			foreach ($images as $image) {
