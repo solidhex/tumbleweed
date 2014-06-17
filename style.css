@@ -79,32 +79,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
   font-weight: bold; }
 
+/* line 2, ../scss/partials/_header.scss */
+#container > header > nav {
+  margin: 36px 0;
+  background: #fff;
+  text-align: center; }
+  /* line 6, ../scss/partials/_header.scss */
+  #container > header > nav ul {
+    font-size: 0; }
+    /* line 9, ../scss/partials/_header.scss */
+    #container > header > nav ul > li {
+      display: inline-block;
+      margin: 0 7px; }
+      /* line 12, ../scss/partials/_header.scss */
+      #container > header > nav ul > li a {
+        color: #000;
+        font: 14px "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+        text-decoration: none;
+        text-transform: uppercase; }
+        /* line 17, ../scss/partials/_header.scss */
+        #container > header > nav ul > li a:hover {
+          color: #FF9912; }
+
 /**
  * Blog styles
  */
-/* line 30, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 36, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 body {
   background: #F5F5F5;
   color: #4d4949;
-  font-family: 'Source Sans Pro'; }
+  font: 12px/18px 'Source Sans Pro', Arial, sans-serif; }
 
-/* line 42, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 img {
   display: block;
   max-width: 100%;
   -moz-force-broken-image-icon: 1; }
 
-/* line 48, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 strong {
   font-weight: bold; }
 
-/* line 52, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 #container {
   margin: 0 auto;
   width: 960px; }

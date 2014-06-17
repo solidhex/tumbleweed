@@ -20,6 +20,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "typography/source_sans_pro";
 
 // Import partials
+@import "partials/header";
 
 // Import views
 
@@ -36,7 +37,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
 	background: #F5F5F5;
 	color: #4d4949;
-	font-family: 'Source Sans Pro';
+	font: 12px/18px 'Source Sans Pro', Arial, sans-serif;
 }
 
 img {
