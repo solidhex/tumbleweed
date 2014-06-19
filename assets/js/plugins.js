@@ -1,1 +1,1 @@
-//@codekit-prepend "libs/jquery.bxslider.min.js"
+// @codekit-append "vendor/jquery.bxslider.min.js"
