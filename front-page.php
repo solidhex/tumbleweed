@@ -10,5 +10,5 @@
 			<?php the_content(); ?>
 		</article>
 	<?php endwhile;  ?>
-	
+		
 <?php get_footer(); ?>
