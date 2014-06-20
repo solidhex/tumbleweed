@@ -50,6 +50,18 @@ strong {
 	font-weight: bold;
 }
 
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(assets/img/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+	
+
 #container {
 	margin: 0 auto;
 	width: 960px;

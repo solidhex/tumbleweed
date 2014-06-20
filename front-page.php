@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<section class="carousel">
+	<section class="slider">
 		<div>
 			<?php echo get_attached_images( 'size=large' ); ?>
 		</div>
